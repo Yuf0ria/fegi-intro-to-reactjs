@@ -1,29 +1,14 @@
 import './App.css';
+import ProfileCard from './Profile.js';
 
 function App() {
   return (
     <body>
       <div className="App">
-        <header className="App-header">
-        <h3>Jane Doe</h3>
-        <p>Age:30
-        <br/><br/> 
-        Location: New York</p>
-        </header>
+        <ProfileCard name = 'Jane Doe' age = '30' location = 'New York'/>
+        <ProfileCard name = 'Jane Smith' age = '25' location = 'San Francisco'/>
+        <ProfileCard name = 'Ace Reyes' age = '27' location = 'Valenzuela'/>
 
-        <header className="App-header">
-        <h3>Jane Smith</h3>
-        <p>Age:25
-        <br/><br/>
-        Location: San Francisco</p>
-        </header>
-
-        <header className="App-header">
-        <h3>Ace Reyes</h3>
-        <p>Age:27
-        <br/><br/>
-        Location: Valenzuela</p>
-        </header>
       </div>
     </body>
   );
